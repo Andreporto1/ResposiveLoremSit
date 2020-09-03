@@ -59,8 +59,6 @@ body,html,img,p{
     font-family: 'Playfair Display';
     color: whitesmoke;
     text-align: left;
-    border: 1px solid red;
-
 }
 
 
@@ -112,6 +110,10 @@ body,html,img,p{
         padding: 0rem 4rem;
     }
     .container-textos-marrom{
+        margin-left: 5rem;
+    }
+
+    .container-textos-verde{
         margin-left: 5rem;
     }
 
