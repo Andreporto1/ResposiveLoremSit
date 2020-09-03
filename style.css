@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body,html{
+body,html,img,p{
     margin: 0;
     padding: 0;
 }
@@ -28,8 +28,12 @@ body,html{
     font-family: 'Playfair Display'; 
     font-size: 60px;
     color: #824936;
-    padding: 0 25rem;
+    padding: 0 15rem;
  }
+
+.container-white{
+    padding: 5rem 0;
+}
 
 .p-quality{
     color: #824936;
@@ -40,25 +44,84 @@ body,html{
 }
 
 .texto-esquerda, .texto-direita{
-    margin: 1rem 3.5rem;
+    margin: 1rem 7rem;
     text-align: justify;
     font-family: 'Roboto';
     font-weight: 600;
 }
 
+.container-verde{
+    padding: 5rem 0;
+    background-color: #222C2A;
+}
 
-@media (min-width: 700px) {
+.container-textos-verde h2{
+    font-family: 'Playfair Display';
+    color: whitesmoke;
+    text-align: left;
+    border: 1px solid red;
+
+}
+
+
+.container-textos-verde-p,
+.container-textos-marrom p{
+    color: whitesmoke;
+    padding: 1rem 0rem;
+    text-align: justify;
+    font-family: 'Roboto';
+   
+}
+
+
+.container-img-verde {
+    padding: 0 7rem;
+}
+
+.container-textos-marrom h2{
+    font-family: 'Playfair Display';
+    color: whitesmoke;
+}
+
+
+    
+
+.container-marrom{
+    background-color: #824936;
+    color: whitesmoke;
+    
+}
+
+
+
+@media (min-width: 1000px) {
     .container-textos{
         display: flex;
-        
     }
 
     .container-top h1{
-  
         padding: 0 8rem;
     }
+
+    .container-verde-flex,
+    .container-marrom-flex{
+        display: flex;
+    }
+
+    .container-verde-flex-p{
+        padding: 0rem 4rem;
+    }
+    .container-textos-marrom{
+        margin-left: 5rem;
+    }
+
+    .container-marrom{
+        padding: 5rem 5rem;
+    }
+    
 }
-@media (max-width: 650px) {
+
+@media (max-width: 699px) {
     .container-top h1{
        font-size: 6.5vh;
        padding: 0 1.2rem;
@@ -68,6 +131,25 @@ body,html{
     .texto-esquerda,
     .texto-direita{
         margin: 1.8rem 1rem;
+    }
+
+    .container-textos-verde,
+    .container-textos-marrom{
+        padding: 1rem 1.5rem ;
+    }
+    
+    .img-verde,
+    .img-marrom{
+        width: 100%;
+    }
+
+    .container-img-verde,
+    .container-img-marrom {
+        padding:0 1rem;
+    }
+
+    .container-marrom{
+        padding: 5rem 0rem;
     }
 }
 
